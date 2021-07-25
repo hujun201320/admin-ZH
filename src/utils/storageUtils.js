@@ -3,28 +3,14 @@
  */
 import store from 'store'
 const USER_KEY = 'user_key'
-export default {
-  /*
-  保存user
-   */
-  saveUser (user) {
+
+//保存user
     // localStorage.setItem(USER_KEY, JSON.stringify(user))
-    store.set(USER_KEY, user)
-  },
+export const saveUser = (user) => {store.set(USER_KEY, user)}
+// 读取user
+  // return JSON.parse(localStorage.getItem(USER_KEY) || '{}')
+export const getUser = () =>  {return store.get(USER_KEY) || {}}
 
-  /*
-  读取user
-   */
-  getUser () {
-    // return JSON.parse(localStorage.getItem(USER_KEY) || '{}')
-    return store.get(USER_KEY) || {}
-  },
-
-  /*
-  删除user
-   */
-  removeUser () {
-    // localStorage.removeItem(USER_KEY)
-    store.remove(USER_KEY)
-  }
-}
+//删除user
+ // localStorage.removeItem(USER_KEY)
+export const removeUser = () => {store.remove(USER_KEY)}
