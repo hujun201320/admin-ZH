@@ -12,6 +12,130 @@ const menuList = [
         icon:<HomeOutlined />,
     },
     {
+        title: '通知管理',
+        key: '/noticesManage',
+        icon: <PieChartOutlined />,
+        children: [
+          {
+            title: '发通知',
+            key: '/noticesManage/add',
+            icon: <PieChartOutlined />
+          },
+          {
+            title: '管理通知',
+            key: '/noticesManage/manage',
+            icon: <PieChartOutlined />
+          },]
+      },
+      {
+        title: '课程、案例、新闻、法规',
+        key: '/newsManage',
+        icon: <PieChartOutlined />,
+        children: [ // 子菜单列表
+          {
+            title: '写新闻（案例、法规等）',
+            key: '/writenews',
+            icon: <PieChartOutlined />
+          },
+          {
+            title: '管理文章',
+            key: '/managenews',
+            icon: <PieChartOutlined />
+          },
+        ]
+      },
+      {
+        title: '基层风采管理',
+        key: '/picshow',
+        icon: <PieChartOutlined />,
+        children: [
+          {
+            title: '图片上传',
+            key: '/picshow/uploads',
+            icon: <PieChartOutlined />
+          },
+          {
+            title: '图片管理',
+            key: '/picshow/manage',
+            icon: <PieChartOutlined />
+          },
+        ]
+      },
+      {
+        title: '科室动态管理',
+        key: '/departmentMessage',
+        icon: <PieChartOutlined />,
+        children: [
+          {
+            title: '发布科室动态',
+            key: '/departmentMessage/write',
+            icon: <PieChartOutlined />
+          },
+          {
+            title: '内容管理',
+            key: '/departmentMessage/manage',
+            icon: <PieChartOutlined />
+          },
+    
+        ]
+      },
+      {
+        title: '视频管理',
+        key: '/media/video',
+        icon: <PieChartOutlined />,
+        children: [
+          {
+            title: '视频上传',
+            key: '/mdeia/videoupload',
+            icon: <PieChartOutlined />
+          },
+          {
+            title: '视频管理',
+            key: '/mdeia/videomanage',
+            icon: <PieChartOutlined />
+          },
+        ]
+      },
+      {
+        title: '更新值班首长',
+        key: '/leader/write',
+        icon: <PieChartOutlined />
+      },
+      {
+        title: '留言管理',
+        key: 'mail',
+        icon: <PieChartOutlined />,
+        children: [
+          {
+            title: '已审核留言',
+            key: '/mail/checked',
+            icon: <PieChartOutlined />
+          },
+          {
+            title: '未审核留言',
+            key: '/mail/unchecked',
+            icon: <PieChartOutlined />
+          },
+        ]
+      },
+      {
+        title: '双争评比',
+        key: '/quantization',
+        icon: <PieChartOutlined />,
+        children: [
+          {
+            title: '先进单位',
+            key: '/quantization/unit',
+            icon: <PieChartOutlined />
+          },
+          {
+            title: '先进个人',
+            key: '/quantization/solo',
+            icon: <PieChartOutlined />
+          },
+        ]
+      },
+    {
         title: '新闻',
         key:'/news',
         icon:<PieChartOutlined />,
