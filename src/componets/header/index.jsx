@@ -8,7 +8,7 @@ import menuList from '../../config/menuConfig'
 import { formateDate } from '../../utils/dateUtils'
 import memoryUtils from "../../utils/memoryUtils"
 import { removeUser } from '../../utils/storageUtils'
-// import storageUtils from '../../utils/storageUtils'
+import LinkButton from '../link-buttom'
 import './index.less'
 /*
 左侧导航的组件
@@ -106,7 +106,8 @@ class Header extends Component {
             <div className="header">
                 <div className="header-top">
                     <span>欢饮，{username}</span>
-                    <a  href="javascript" onClick={this.showConfirm} >退出</a>
+                    <LinkButton onClick={this.showConfirm}>退出 </LinkButton>
+                    {/* <a  href="javascript" onClick={this.showConfirm} >退出</a> */}
                 </div>
                 <div className="header-bottom">
                     <div className='header-bottom-left'>{title}</div>

@@ -114,16 +114,17 @@ class LeftNav extends Component {
           <h1 >后台管理系统</h1>
 
         </Link>
+        <div className="left-nav-fontsize">
+          <Menu
+            mode="inline"
+            theme="dark"
+            selectedKeys={[path]}
+            defaultOpenKeys={[openKey]}
+          >
+            {this.menuNodes}
+          </Menu>
+        </div>
 
-        <Menu
-          mode="inline"
-          theme="dark"
-          selectedKeys={[path]}
-          defaultOpenKeys={[openKey]}
-        >
-          {this.menuNodes}
-
-        </Menu>
 
       </div>
 
