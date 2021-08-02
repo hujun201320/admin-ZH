@@ -147,7 +147,7 @@ const menuList = [
             },
             {
                 title:'新闻管理',
-                key:'/newsManage',
+                key:'/news-Manage',
                 icon:<HddOutlined />
             }
         ]

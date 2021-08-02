@@ -23,12 +23,12 @@ class Header extends Component {
     }
 
     getTime = () => {
-        //每隔1s获取当前时间，并更新状态数据currentTime
-        setInterval(() => {
-            const currentTime = formateDate(Date.now())
-            this.setState({ currentTime })
+        // 每隔1s获取当前时间, 并更新状态数据currentTime
+        this.intervalId = setInterval(() => {
+          const currentTime = formateDate(Date.now())
+          this.setState({currentTime})
         }, 1000)
-    }
+      }
 
 
     getTitle = () => {
@@ -85,15 +85,14 @@ class Header extends Component {
     /*
     当前组件卸载之前调用
     */
-   
 
-// showbundle = (codeNum) => {
-//     this.setState({
-//       showbundleNum: codeNum
- 
-//      });
- 
-//  };
+    UNSAFE_componentWillMount () {
+        this.setState = ()=>false; 
+        // 清除定时器
+        clearInterval(this.intervalId)
+      }
+    
+   
 
     render() {
 
