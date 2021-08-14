@@ -17,12 +17,17 @@ import './index.less'
 const { confirm } = Modal;
 
 class Header extends Component {
-
+constructor(props){
+    super(props)
+    this.state={isToggleOn:true}
+}
     state = {
-        currentTime: formateDate(Date.now()) //当前时间字符
-    }
+        currentTime: formateDate(Date.now()), // 当前时间字符串
+        dayPictureUrl: '', // 天气图片url
+        weather: '', // 天气的文本
+      }
 
-    getTime = () => {
+      getTime = () => {
         // 每隔1s获取当前时间, 并更新状态数据currentTime
         this.intervalId = setInterval(() => {
           const currentTime = formateDate(Date.now())
@@ -87,7 +92,7 @@ class Header extends Component {
     */
 
     UNSAFE_componentWillMount () {
-        this.setState = ()=>false; 
+      
         // 清除定时器
         clearInterval(this.intervalId)
       }
@@ -105,7 +110,9 @@ class Header extends Component {
             <div className="header">
                 <div className="header-top">
                     <span>欢饮，{username}</span>
-                    <LinkButton onClick={this.showConfirm}>退出 </LinkButton>
+                    <LinkButton onClick={()=>this.showConfirm(this.state.isToggleOn)}>
+                    
+                        退出 </LinkButton>
                     {/* <a  href="javascript" onClick={this.showConfirm} >退出</a> */}
                 </div>
                 <div className="header-bottom">
