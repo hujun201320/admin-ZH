@@ -91,7 +91,7 @@ constructor(props){
     当前组件卸载之前调用
     */
 
-    UNSAFE_componentWillMount () {
+    componentWillUnmount () {
       
         // 清除定时器
         clearInterval(this.intervalId)
