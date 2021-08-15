@@ -19,7 +19,7 @@ const { confirm } = Modal;
 class Header extends Component {
 constructor(props){
     super(props)
-    this.state={isToggleOn:true}
+    this.state={}
 }
     state = {
         currentTime: formateDate(Date.now()), // 当前时间字符串
@@ -110,9 +110,7 @@ constructor(props){
             <div className="header">
                 <div className="header-top">
                     <span>欢饮，{username}</span>
-                    <LinkButton onClick={()=>this.showConfirm(this.state.isToggleOn)}>
-                    
-                        退出 </LinkButton>
+                    <LinkButton onClick={()=>this.showConfirm()}>退出 </LinkButton>
                     {/* <a  href="javascript" onClick={this.showConfirm} >退出</a> */}
                 </div>
                 <div className="header-bottom">

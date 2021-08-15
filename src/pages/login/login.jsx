@@ -32,8 +32,8 @@ export default class Login extends Component {
   constructor(props) {
     super(props);
     this.state = {}
+    
   }
-
   onFinish = async (values) => {
     //进行表单验证，打印语句模仿表单验证
     console.log('Received values of form: ', values);
