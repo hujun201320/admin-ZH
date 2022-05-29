@@ -90,10 +90,10 @@ return <Redirect to='/' />
 
 
     return (
-      <div className="login">
+      <div style={{width:'100%',height:'100%'}} className="login">
         <header className="login-hearder">
           <img src={logo} alt="logo" />
-          <h1>强军网后台管理系统</h1>
+          <h1>天路先锋党建云后台管理系统</h1>
         </header>
         <section className="login-content">
           <h2>用户登录</h2>
@@ -111,7 +111,7 @@ return <Redirect to='/' />
               name="username"
               rules={[
                 { required: true, whitespace: true, message: '用户名必须输入' },
-                { min: 4, message: '用户名至少4位' },
+                // { min: 4, message: '用户名至少4位' },
                 { max: 12, message: '用户名最多12位' },
               ]}
             >

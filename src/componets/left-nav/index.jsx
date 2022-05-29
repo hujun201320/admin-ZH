@@ -117,7 +117,7 @@ class LeftNav extends Component {
         <div className="left-nav-fontsize">
           <Menu
             mode="inline"
-            theme="dark"
+            theme="red"
             selectedKeys={[path]}
             defaultOpenKeys={[openKey]}
           >

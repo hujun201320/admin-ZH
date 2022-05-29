@@ -1,0 +1,513 @@
+{
+  "id": "2934754",
+  "name": "党建",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "982372",
+      "name": "男",
+      "font_class": "nan",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "1311994",
+      "name": "女",
+      "font_class": "nv",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "7516896",
+      "name": "年龄",
+      "font_class": "nianling",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "8241453",
+      "name": "团员",
+      "font_class": "tuanyuan",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "8479782",
+      "name": "团员",
+      "font_class": "tuanyuan1",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "14420921",
+      "name": "党龄分布",
+      "font_class": "danglingfenbu",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "14800014",
+      "name": "入党积极分子",
+      "font_class": "rudangjijifenzi",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "16039133",
+      "name": "个人资料_党龄_40",
+      "font_class": "gerenziliao_dangling_40",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "18856188",
+      "name": "党建_正式党员数量",
+      "font_class": "dangjian_zhengshidangyuanshuliang",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "22362829",
+      "name": "年龄分析",
+      "font_class": "nianlingfenxi",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "23785650",
+      "name": "流动党员",
+      "font_class": "liudongdangyuan",
+      "unicode": "e9c7",
+      "unicode_decimal": 59847
+    },
+    {
+      "icon_id": "26258098",
+      "name": "群众",
+      "font_class": "qunzhong",
+      "unicode": "e804",
+      "unicode_decimal": 59396
+    },
+    {
+      "icon_id": "26420731",
+      "name": "支部委员会",
+      "font_class": "zhibuweiyuanhui",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "7157982",
+      "name": "智慧党建平台",
+      "font_class": "Party-construction",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "23245098",
+      "name": "党建_我的课程",
+      "font_class": "dangjian_wodekecheng",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "23245101",
+      "name": "党建_通报专项",
+      "font_class": "dangjian_tongbaozhuanxiang",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "23245102",
+      "name": "党建_我的积分",
+      "font_class": "dangjian_wodejifen",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "23245106",
+      "name": "党建_积分管理",
+      "font_class": "dangjian_jifenguanli",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "23245110",
+      "name": "党建_个人申报",
+      "font_class": "dangjian_gerenshenbao",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "23245111",
+      "name": "党建_个人中心",
+      "font_class": "dangjian_gerenzhongxin",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "23245113",
+      "name": "党建_党员关系转接",
+      "font_class": "dangjian_dangyuanguanxizhuanjie",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "23245118",
+      "name": "党建_党员论坛",
+      "font_class": "dangjian_dangyuanluntan",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "23245131",
+      "name": "党建_考核任务",
+      "font_class": "dangjian_kaoherenwu",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "23245132",
+      "name": "党建_民主评议党员",
+      "font_class": "dangjian_minzhupingyidangyuan",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "23245140",
+      "name": "党建_思想汇报",
+      "font_class": "dangjian_sixianghuibao",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "23245142",
+      "name": "党建_谈心谈话",
+      "font_class": "dangjian_tanxintanhua",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "23245146",
+      "name": "党建_数据分析",
+      "font_class": "dangjian_shujufenxi",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "23245149",
+      "name": "党建_我的任务",
+      "font_class": "dangjian_woderenwu",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "23245156",
+      "name": "党建_信息档案管理",
+      "font_class": "dangjian_xinxidanganguanli",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "23245164",
+      "name": "党建_修改资料",
+      "font_class": "dangjian_xiugaiziliao",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    },
+    {
+      "icon_id": "23245165",
+      "name": "党建_学习教育",
+      "font_class": "dangjian_xuexijiaoyu",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "23245166",
+      "name": "党建_学习园地",
+      "font_class": "dangjian_xuexiyuandi",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "23245168",
+      "name": "党建_议题管理",
+      "font_class": "dangjian_yitiguanli",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "23245170",
+      "name": "党建_制度落实",
+      "font_class": "dangjian_zhidulashi",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "23245174",
+      "name": "党建_内容管理",
+      "font_class": "dangjian_neirongguanli",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "23245180",
+      "name": "党建_组织活动",
+      "font_class": "dangjian_zuzhihuodong",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "23245181",
+      "name": "党建_系统设置",
+      "font_class": "dangjian_xitongshezhi",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "23245182",
+      "name": "党建_组织情况变化",
+      "font_class": "dangjian_zuzhiqingkuangbianhua",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "23245184",
+      "name": "党建_组织设置",
+      "font_class": "dangjian_zuzhishezhi",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "23245185",
+      "name": "党建_组织中心",
+      "font_class": "dangjian_zuzhizhongxin",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "577364",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e751",
+      "unicode_decimal": 59217
+    },
+    {
+      "icon_id": "15989503",
+      "name": "头条样式",
+      "font_class": "toutiaoyangshi",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "11820265",
+      "name": "党务",
+      "font_class": "dangwu",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "23245173",
+      "name": "党建_主题党日",
+      "font_class": "dangjian_zhutidangri",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "8452505",
+      "name": "党建活动",
+      "font_class": "dangjianhuodong",
+      "unicode": "e6bd",
+      "unicode_decimal": 59069
+    },
+    {
+      "icon_id": "8452509",
+      "name": "党建信息",
+      "font_class": "dangjianxinxi",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "8452511",
+      "name": "党建朋友圈",
+      "font_class": "dangjianpengyouquan",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "16516706",
+      "name": "32-党建",
+      "font_class": "32-dangjian",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "18269564",
+      "name": "党建",
+      "font_class": "dangjian1",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "20810679",
+      "name": "党建-1",
+      "font_class": "dangjian-1",
+      "unicode": "e78a",
+      "unicode_decimal": 59274
+    },
+    {
+      "icon_id": "23245100",
+      "name": "党建_通讯录",
+      "font_class": "dangjian_tongxunlu",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "23245120",
+      "name": "党建_督办",
+      "font_class": "dangjian_duban",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "23245143",
+      "name": "党建_数说党建",
+      "font_class": "dangjian_shushuodangjian",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "23245150",
+      "name": "党建_班子建设",
+      "font_class": "dangjian_banzijianshe",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "23245152",
+      "name": "党建_队伍建设",
+      "font_class": "dangjian_duiwujianshe",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "23245153",
+      "name": "党建_党内表彰",
+      "font_class": "dangjian_dangneibiaozhang",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "1727361",
+      "name": "24组织架构、接口",
+      "font_class": "zuzhijiagoujiekou",
+      "unicode": "e89a",
+      "unicode_decimal": 59546
+    },
+    {
+      "icon_id": "8452502",
+      "name": "党建大数据",
+      "font_class": "dangjiandashuju",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "13525738",
+      "name": "31-党建",
+      "font_class": "-dangjian",
+      "unicode": "e721",
+      "unicode_decimal": 59169
+    },
+    {
+      "icon_id": "17461666",
+      "name": "党建视频",
+      "font_class": "dangjianshipin",
+      "unicode": "e81b",
+      "unicode_decimal": 59419
+    },
+    {
+      "icon_id": "20266181",
+      "name": "党建",
+      "font_class": "dangjian",
+      "unicode": "e6d8",
+      "unicode_decimal": 59096
+    },
+    {
+      "icon_id": "20812184",
+      "name": "党建-3",
+      "font_class": "dangjian-3",
+      "unicode": "e794",
+      "unicode_decimal": 59284
+    },
+    {
+      "icon_id": "20812624",
+      "name": "党建-2",
+      "font_class": "dangjian-2",
+      "unicode": "e7a9",
+      "unicode_decimal": 59305
+    },
+    {
+      "icon_id": "23245104",
+      "name": "党建_管理员",
+      "font_class": "dangjian_guanliyuan",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "23245109",
+      "name": "党建_发展党员计划",
+      "font_class": "dangjian_fazhandangyuanjihua",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "23245115",
+      "name": "党建_党章党规",
+      "font_class": "dangjian_dangzhangdanggui",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "23245117",
+      "name": "党建_党务管理",
+      "font_class": "dangjian_dangwuguanli",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "23245128",
+      "name": "党建_党费管理",
+      "font_class": "dangjian_dangfeiguanli",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "23245145",
+      "name": "党建_三会一课",
+      "font_class": "dangjian_sanhuiyike",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "23245151",
+      "name": "党建_党建活动室管理",
+      "font_class": "dangjian_dangjianhuodongshiguanli",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "23273803",
+      "name": "党建_角色类型管理",
+      "font_class": "dangjian_jiaoseleixingguanli",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "23273805",
+      "name": "党建_支部排行",
+      "font_class": "dangjian_zhibupaihang",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    }
+  ]
+}

@@ -17,23 +17,23 @@ import './index.less'
 const { confirm } = Modal;
 
 class Header extends Component {
-constructor(props){
-    super(props)
-    this.state={}
-}
+    constructor(props) {
+        super(props)
+        this.state = {}
+    }
     state = {
         currentTime: formateDate(Date.now()), // 当前时间字符串
         dayPictureUrl: '', // 天气图片url
         weather: '', // 天气的文本
-      }
+    }
 
-      getTime = () => {
+    getTime = () => {
         // 每隔1s获取当前时间, 并更新状态数据currentTime
         this.intervalId = setInterval(() => {
-          const currentTime = formateDate(Date.now())
-          this.setState({currentTime})
+            const currentTime = formateDate(Date.now())
+            this.setState({ currentTime })
         }, 1000)
-      }
+    }
 
 
     getTitle = () => {
@@ -65,7 +65,7 @@ constructor(props){
         confirm({
             // icon: <ExclamationCircleOutlined />,
             content: '确定退出吗？',
-            onOk:()=> {
+            onOk: () => {
                 console.log('OK');
                 // 删除保存的数据
                 removeUser()
@@ -91,13 +91,13 @@ constructor(props){
     当前组件卸载之前调用
     */
 
-    componentWillUnmount () {
-      
+    componentWillUnmount() {
+
         // 清除定时器
         clearInterval(this.intervalId)
-      }
-    
-   
+    }
+
+
 
     render() {
 
@@ -110,15 +110,12 @@ constructor(props){
             <div className="header">
                 <div className="header-top">
                     <span>欢饮，{username}</span>
-                    <LinkButton onClick={()=>this.showConfirm()}>退出 </LinkButton>
-                    {/* <a  href="javascript" onClick={this.showConfirm} >退出</a> */}
+                    <LinkButton onClick={() => this.showConfirm()}>退出 </LinkButton>
                 </div>
                 <div className="header-bottom">
                     <div className='header-bottom-left'>{title}</div>
                     <div className='header-bottom-right'>
                         <span>{currentTime}</span>
-                        {/* <img src="" alt="weater" />
-                        <span></span> */}
                     </div>
                 </div>
             </div>

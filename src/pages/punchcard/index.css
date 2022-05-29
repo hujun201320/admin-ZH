@@ -1,0 +1,10 @@
+.content_bg{
+    margin: 0 auto;
+} 
+#content{
+    margin: 0px auto;
+}
+.content_read{
+    font-size: 30px;
+    font-weight: 700px;
+}
